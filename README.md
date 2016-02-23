@@ -7,7 +7,9 @@ A repo to store examples
 Graph Visualization Software [graphviz](http://www.graphviz.org/) is pretty
 neat.  You can get crazy complicated, or stay simple.
 
-## Basic graph
+## Basic graphs
+
+## Undirected graphs
 
 Something like [hello.dot](hello.dot) is a basic graph:
 
@@ -24,7 +26,7 @@ yields [hello.png](hello.png).
 
 ![hello.png](hello.png)
 
-## Basic digraph
+### Directed graphs (digraph)
 
 Something like [hello_digraph.dot](hello_digraph.dot) is a basic digraph:
 
@@ -41,3 +43,16 @@ yields [hello_digraph.png](hello_digraph.png).
 
 ![hello_digraph.png](hello_digraph.png)
 
+### Basic attributes
+
+You can change things like the orientation of the graph, or the node shapes.
+
+```dot
+digraph G {
+    va -> vb;
+    vc -> vd -> ve -> vc;
+    vb -> vc;
+}
+```
+
+![hello_digraph.png](hello_digraph.png)

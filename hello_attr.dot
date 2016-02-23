@@ -1,0 +1,12 @@
+digraph G {
+    // you can have comments that start with
+    // you can change the orientation
+    rankdir=LR; 
+    // you can define the shape attributes before use
+    vc [style="filled", /* you can also have comments like this */ penwidth=5, fillcolor = "purple", fontname = "Courier New"];
+    va [shape=box, color=blue];
+
+    va -> vb;
+    vc -> vd -> ve -> vc;
+    vb -> vc [penwidth=5];
+}
