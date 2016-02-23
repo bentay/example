@@ -49,10 +49,17 @@ You can change things like the orientation of the graph, or the node shapes.
 
 ```dot
 digraph G {
+    // you can have comments that start with
+    // you can change the orientation
+    rankdir=LR; 
+    // you can define the shape attributes before use
+    vc [style="filled", /* you can also have comments like this */ penwidth=5, fillcolor = "purple", fontname = "Courier New"];
+    va [shape=box, color=blue];
+
     va -> vb;
     vc -> vd -> ve -> vc;
-    vb -> vc;
+    vb -> vc [penwidth=5];
 }
 ```
 
-![hello_digraph.png](hello_digraph.png)
+![hello_attr.png](hello_attr.png)
