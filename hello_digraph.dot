@@ -1,0 +1,5 @@
+digraph G {
+    va -> vb;
+    vc -> vd -> ve -> vc;
+    vb -> vc;
+}
