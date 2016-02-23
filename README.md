@@ -5,7 +5,7 @@ A repo to store examples
 # Graphviz
 
 Graph Visualization Software [graphviz](http://www.graphviz.org/) is pretty
-neat.
+neat.  You can get crazy complicated, or stay simple.
 
 ## Basic graph
 
@@ -26,7 +26,7 @@ yields [hello.png](hello.png).
 
 ## Basic digraph
 
-Something like [hello_digraph.dot](hello_digraph.dot) is a basic graph:
+Something like [hello_digraph.dot](hello_digraph.dot) is a basic digraph:
 
 ```dot
 digraph G {
