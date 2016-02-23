@@ -49,7 +49,7 @@ You can change things like the orientation of the graph, or the node shapes.
 
 ```dot
 digraph G {
-    // you can have comments that start with
+    // you can have comments that start with // or are wrapped in /* COMMENT */
     // you can change the orientation
     rankdir=LR; 
     // you can define the shape attributes before use
